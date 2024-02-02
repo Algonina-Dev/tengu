@@ -1,0 +1,9 @@
+{
+  "root": "src/app/",
+  "pageRoot": "src/app/pages/",
+  "firstPrefix": ".ts",
+  "secondPrefix": ".tsx",
+  "dirRedux": "src/app/redux",
+  "reduxPrefix": "Lib.ts",
+  "actionPrefix": "Act.ts"
+}

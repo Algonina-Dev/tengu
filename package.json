@@ -1,0 +1,28 @@
+{
+  "name": "tengu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "bin": "dist/index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "yargs": "^17.7.2"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@types/commander": "^2.12.2",
+    "commander": "^11.1.0",
+    "lodash": "^4.17.21",
+    "prompts": "^2.4.2"
+  }
+}
